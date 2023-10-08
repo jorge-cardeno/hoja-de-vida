@@ -1,11 +1,13 @@
-import { BannerProfile } from "@/components/BannerProfile";
-import { EducationGrid } from "@/components/EducationGrid";
-import { Footer } from "@/components/Footer";
-import { IntroductorySection } from "@/components/IntroductorySection";
-import { KnowledgeCardGrid } from "@/components/KnowledgeCardGrid";
-import { PersonalData } from "@/components/PersonalData";
-import { PortfolioGrid } from "@/components/PortfolioGrid";
-import { SocialMedia } from "@/components/SocialMedia";
+import {
+  BannerProfile,
+  EducationGrid,
+  Footer,
+  IntroductorySection,
+  KnowledgeCardGrid,
+  PersonalData,
+  PortfolioGrid,
+  SocialMedia
+} from '@/components';
 
 const Index = () => {
   return (

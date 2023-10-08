@@ -8,7 +8,7 @@ import imageGrowingHealth from "../public/images/growing-health-portfolio.jpg";
 
 export const PortfolioGrid = () => {
     return (
-        <div className="flex w-[900px] mt-10 mx-auto justify-center mb-10">
+        <div className="flex w-[1000px] mt-10 mx-auto justify-center mb-10">
             <div className="flex overflow-x-auto">
                 <div className="flex gap-6">
                     <div className="bg-white rounded-lg w-80 shadow-lg">

@@ -6,3 +6,4 @@ export { KnowledgeCardGrid } from "@/components/KnowledgeCardGrid";
 export { PersonalData } from "@/components/PersonalData";
 export { PortfolioGrid } from "@/components/PortfolioGrid";
 export { SocialMedia } from "@/components/SocialMedia";
+export { Main } from "@/components/Main";

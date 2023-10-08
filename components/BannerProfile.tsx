@@ -20,7 +20,7 @@ export const BannerProfile = () => {
                 <button
                     className="flex items-center bg-blue-600 text-white text-xl text-blue-500 font-semibold mt-5 px-4 py-2 rounded-md mt-2 w-1/4 transform hover:scale-105 transition-transform duration-300 ease-in-out"
                 > 
-                    <Link className="flex items-center text-white text-xl" target="_blank" href="https://www.linkedin.com/in/jorge-andres-carde%C3%B1o-devia-620691211/">
+                    <Link className="flex items-center text-white text-lg" target="_blank" href="https://www.linkedin.com/in/jorge-andres-carde%C3%B1o-devia-620691211/">
                         Hire Me
                         <FaArrowRight className="ml-1" />
                     </Link>

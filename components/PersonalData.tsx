@@ -3,7 +3,7 @@ import { FaMinus } from 'react-icons/fa';
 
 export const PersonalData = () => {
     return (
-        <div className="bg-white pl-10 pr-20 pt-2 h-screen fixed top-0 bg-white">
+        <div className="bg-white pl-20 pr-20 pt-2 h-screen fixed top-0 bg-white">
             <section>
                 <div className="flex justify-center">
                     <div className="w-32 h-32 rounded-full overflow-hidden">

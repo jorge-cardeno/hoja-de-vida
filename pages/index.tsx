@@ -8,7 +8,7 @@ const Index = () => {
   return (
     <div className="flex">
       {/* Columna izquierda */}
-      <div className="w-1/4 p-4 grid justify-center">
+      <div className="w-1/4 grid justify-center">
         <PersonalData />
       </div>
 

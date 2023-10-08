@@ -6,7 +6,7 @@ interface KnowledgeCardProps {
 
 export const KnowledgeCard = ({title, paragraph, icon}: KnowledgeCardProps) => {
   return (
-    <section>
+    <section className="transform hover:scale-105 transition-transform duration-300 ease-in-out">
       <div className="grid bg-white rounded-lg p-4 text-center justify-center">
         <div className="text-8xl text-blue-600 mb-2 mx-auto">
           {icon}

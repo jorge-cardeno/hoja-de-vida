@@ -7,7 +7,7 @@ interface EducationProps {
 }
 export const Education = ({title, role, date, degree, paragraph}: EducationProps) => {
     return (
-        <div className="flex mb-8 bg-white rounded-lg mt-10">
+        <div className="flex mb-8 bg-white rounded-lg mt-10 p-4 transform hover:scale-105 transition-transform duration-300 ease-in-out">
             <div className="p-4 mr-6 w-1/2">
                 <h3 className="from-neutral-50 text-xl ml-3">{title}</h3>
                 <div className="p-3 mr-8">

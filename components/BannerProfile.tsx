@@ -1,9 +1,11 @@
 import Image from "next/image";
-import imageBanner from "../public/images/andres-cardeno-no-background.png"
+import { FaArrowRight } from 'react-icons/fa';
+import imageBanner from "../public/images/andres-cardeno-no-background.png";
+import Link from "next/link";
 
 export const BannerProfile = () => {
     return (
-        <section className="bg-white text-black flex items-center justify-between">
+        <header className="bg-white text-black flex items-center justify-between">
             <div className="ml-10 grid w-3/4">
                 <h1 className="text-4xl font-semibold">I am Jorge Andrés Cardeño Devia</h1>
                 <span
@@ -16,9 +18,13 @@ export const BannerProfile = () => {
                     new technologies and facing new challenges.
                 </p>
                 <button
-                    className="bg-blue-600 text-white text-blue-500 font-semibold mt-5 px-4 py-2 rounded-md mt-2 w-1/4"
-                >
-                    Hire Me</button>
+                    className="flex items-center bg-blue-600 text-white text-xl text-blue-500 font-semibold mt-5 px-4 py-2 rounded-md mt-2 w-1/4 transform hover:scale-105 transition-transform duration-300 ease-in-out"
+                > 
+                    <Link className="flex items-center text-white text-xl" target="_blank" href="https://www.linkedin.com/in/jorge-andres-carde%C3%B1o-devia-620691211/">
+                        Hire Me
+                        <FaArrowRight className="ml-1" />
+                    </Link>
+                </button>
             </div>
 
             <div className="mr-10 flex items-center justify-center">
@@ -28,9 +34,9 @@ export const BannerProfile = () => {
                     style={{
                         width: 'auto',
                         height: '100%',
-                      }}
+                    }}
                 />
             </div>
-        </section>
+        </header>
     )
 }

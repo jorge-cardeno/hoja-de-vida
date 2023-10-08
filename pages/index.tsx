@@ -1,9 +1,11 @@
 import { BannerProfile } from "@/components/BannerProfile";
 import { EducationGrid } from "@/components/EducationGrid";
+import { Footer } from "@/components/Footer";
 import { IntroductorySection } from "@/components/IntroductorySection";
 import { KnowledgeCardGrid } from "@/components/KnowledgeCardGrid";
 import { PersonalData } from "@/components/PersonalData";
 import { PortfolioGrid } from "@/components/PortfolioGrid";
+import { SocialMedia } from "@/components/SocialMedia";
 
 const Index = () => {
   return (
@@ -14,7 +16,7 @@ const Index = () => {
       </div>
 
       {/* Columna central */}
-      <div className="w-2/3 p-4">
+      <div className="w-2/3 top-0">
         {/* Contenido de la columna central */}
         <BannerProfile/>
         <IntroductorySection title="My Knowledge" paragraph="I stand out for my ability to work in a team,
@@ -34,11 +36,13 @@ const Index = () => {
           in creating attractive and functional websites. In this space, I will share a selection of my most
           prominent projects, where you can explore my skills!"/>
         <PortfolioGrid/>
+        <Footer/>
       </div>
 
       {/* Columna derecha */}
-      <div className="w-1/8 p-4 bg-red">
+      <div className="w-1/8 p-20 pl-10">
         {/* Contenido de la columna derecha */}
+        <SocialMedia/>
       </div>
     </div>
   )

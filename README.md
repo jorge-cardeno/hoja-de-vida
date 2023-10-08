@@ -3,7 +3,10 @@ By: Jorge Andres Cardeño Devia
 
 ## Getting Started
 First, install the Node dependencies.
--> npm install
+```bash
+npm install
+```
+
 Second, run the development server:
 ```bash
 npm run dev
